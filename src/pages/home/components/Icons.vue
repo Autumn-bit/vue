@@ -92,6 +92,7 @@
 		padding-bottom:50%;
         touch-action:none;
 	}
+	.icons{margin-top:4px;}
 	.icon{
 		width:25%;
 		height:0;
