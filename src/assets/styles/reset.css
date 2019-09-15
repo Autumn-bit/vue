@@ -2,7 +2,7 @@
 * @Author: 15561
 * @Date:   2019-09-04 16:01:28
 * @Last Modified by:   15561
-* @Last Modified time: 2019-09-04 16:35:47
+* @Last Modified time: 2019-09-12 15:03:15
 */
 /* 清除内外边距 */
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
@@ -18,7 +18,7 @@ th, td { /* table elements 表格元素 */
 body,
 button, input, select, textarea { /* for ie */
     /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
-    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+    font: 12px/1 微软雅黑, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
 }
 
 h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
@@ -27,7 +27,7 @@ h3 { font-size: 14px; }
 h4, h5, h6 { font-size: 100%; }
 
 address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
-code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+code, kbd, pre, samp, tt { font-family: "微软雅黑", Courier, monospace; } /* 统一等宽字体 */
 small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
 
 /* 重置列表元素 */
