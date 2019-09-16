@@ -2,7 +2,7 @@
 * @Author: 15561
 * @Date:   2019-09-04 16:01:28
 * @Last Modified by:   15561
-* @Last Modified time: 2019-09-12 15:03:15
+* @Last Modified time: 2019-09-15 23:10:21
 */
 /* 清除内外边距 */
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
@@ -38,7 +38,7 @@ a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
-    border-bottom: 1px dotted;
+    /*border-bottom: 1px dotted;*/
     cursor: help;
 }
 
