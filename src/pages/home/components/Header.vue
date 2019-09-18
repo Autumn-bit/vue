@@ -8,7 +8,7 @@
 	   输入城市/景点/游玩主题</div>
      <router-link to='/city'> 
 	<div class="header-right">
-	城市
+	 城市
 	<span class="iconfont arrow-icon">&#xe6c3;</span>
 </div>
 </router-link>
