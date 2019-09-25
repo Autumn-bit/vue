@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store/index.js'
 import fastClcik from 'fastclick'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import './assets/styles/reset.css'
@@ -18,6 +19,7 @@ Vue.use(VueAwesomeSwiper)
 new Vue({
   el: '#app',
   router,
+  store,//创建根实例的时候把store传进来，所以在任意组件都能使用$store
   components: { App },
   template: '<App/>'
 })
